@@ -43,7 +43,7 @@ See [`specification.txt`](specification.txt) for the list of required HTML tags,
 ---
 
 ## Live Demo
-You can view the site live via **GitHub Pages** (enable Pages in repo settings, then link here):
+You can view the site live via **GitHub Pages**:
 &rarr; [Live Demo](https://andrewkm05.github.io/cs50-homepage)
 
 ---
