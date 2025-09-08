@@ -49,10 +49,21 @@ You can view the site live via **GitHub Pages** (enable Pages in repo settings, 
 ---
 
 ## Preview
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-2.png)
-![alt text](image-3.png)
+
+### Dark Mode – Homepage
+![Dark mode screenshot](images/dark-mode.png)
+
+### Homepage
+![Homepage screenshot](images/Homepage.png)
+
+### Projects page
+![Projects screenshot](images/Projects.png)
+
+### About page
+![About screenshot](images/About.png)
+
+### Contact page
+![Contact screenshot](images/Contact.png)
 
 ---
 

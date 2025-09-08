@@ -66,24 +66,41 @@ footer{
     filter: invert(1) grayscale(100%);
 }
 
-.dark .table{
-$table-color:                 var(--#{$prefix}emphasis-color);
-$table-bg:                    var(--#{$prefix}body-bg);
-$table-accent-bg:             transparent;
 
-$table-th-font-weight:        null;
+.dark .table {
+  --bs-table-color: var(--fg);
+  --bs-table-bg: var(--card);
+  --bs-table-border-color: rgba(255,255,255,0.15);
+  --bs-table-striped-bg: rgba(255,255,255,0.04);
+  --bs-table-striped-color: var(--fg);
+  --bs-table-hover-bg: rgba(255,255,255,0.06);
+  --bs-table-hover-color: var(--fg);
+}
 
-$table-striped-color:         $table-color;
-$table-striped-bg-factor:     .05;
-$table-striped-bg:            rgba(var(--#{$prefix}emphasis-color-rgb), $table-striped-bg-factor);
 
-$table-active-color:          $table-color;
-$table-active-bg-factor:      .1;
-$table-active-bg:             rgba(var(--#{$prefix}emphasis-color-rgb), $table-active-bg-factor);
+.dark .table thead th {
+  border-bottom-color: rgba(255,255,255,0.2);
+}
+.dark .table-bordered {
+  border-color: rgba(255,255,255,0.2);
+}
 
-$table-hover-color:           $table-color;
-$table-hover-bg-factor:       .075;
-$table-hover-bg:              rgba(var(--#{$prefix}emphasis-color-rgb), $table-hover-bg-factor);
+.dark .table-light,
+.dark .bg-white {
+  --bs-table-bg: var(--card) !important;
+  background-color: var(--card) !important;
+  color: var(--fg) !important;
+}
+
+.card {
+  background-color: var(--card);
+  color: var(--fg);
+  border: 1px solid rgba(0, 0, 0, 0.125); /* λίγο διακριτικό border */
+}
+
+/* Σε dark mode τα borders να είναι πιο διακριτικά */
+:root.dark .card {
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 .form-group{
