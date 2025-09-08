@@ -1,0 +1,26 @@
+HTML TAGS USED (10 distinct HTML tags besides <html>, <head>, <body>, and <title>):
+1. <header>
+2. <nav>
+3. <main>
+4. <section>
+5. <article>
+6. <footer>
+7. <img>
+8. <table>
+9. <form>
+10. <button>
+
+CSS PROPERTIES USED (at least 5):
+1. line-height
+2. background-color
+3. color
+4. border-radius
+5. box-shadow
+
+WHAT BOOTSTRAP FEATURES I USED:
+- Grid system (rows/cols), Cards, Navbar(responsive with toggler), Buttons, Badge, Table, Jumbotron, Collapse, Alerts, utility classes.
+
+WHAT JAVASCRIPT I USED:
+- Theme toggle with CSS variables + localStorage persistence
+- "Tip" rotator (setInterval) + manual trigger button with alert feedback
+- Client-side validation for the contact form with custom messages

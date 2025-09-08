@@ -1,0 +1,104 @@
+body{
+    line-height: 1.6;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+:root {
+    --bg: #f8f9fa;
+    --fg: #212529;
+    --card: #ffffff;
+}
+
+:root.dark{
+    --bg: #121212;
+    --fg: #e9ecef;
+    --card: #1e1e1e;
+}
+
+.jumbotron{
+    background: var(--card);
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .05);
+}
+
+#themeToggle{
+    cursor: pointer;
+}
+
+.card .card-title{
+    letter-spacing: .3px;
+}
+
+a[href^="http"]{
+    text-decoration: none;
+    border-bottom: 1px dotted currentColor;
+}
+
+footer{
+    opacity: .9;
+}
+
+.bg-white{
+    background-color: var(--card) !important;
+}
+
+.bg-light{
+    background-color: var(--card) !important;
+}
+
+.navbar, header{
+    background-color: var(--card);
+
+}
+
+.dark .navbar{
+    background-color: var(--card) !important;
+
+    --bs-navbar-color: var(--fg);
+    --bs-navbar-hover-color: #bcdfff;
+    --bs-navbar-brand-color: var(--fg);
+    --bs-navbar-brand-hover-color: #bcdfff;
+    --bs-navbar-toggler-border-color: var(--fg);
+}
+
+.dark .navbar .navbar-toggler-icon{
+    filter: invert(1) grayscale(100%);
+}
+
+.dark .table{
+$table-color:                 var(--#{$prefix}emphasis-color);
+$table-bg:                    var(--#{$prefix}body-bg);
+$table-accent-bg:             transparent;
+
+$table-th-font-weight:        null;
+
+$table-striped-color:         $table-color;
+$table-striped-bg-factor:     .05;
+$table-striped-bg:            rgba(var(--#{$prefix}emphasis-color-rgb), $table-striped-bg-factor);
+
+$table-active-color:          $table-color;
+$table-active-bg-factor:      .1;
+$table-active-bg:             rgba(var(--#{$prefix}emphasis-color-rgb), $table-active-bg-factor);
+
+$table-hover-color:           $table-color;
+$table-hover-bg-factor:       .075;
+$table-hover-bg:              rgba(var(--#{$prefix}emphasis-color-rgb), $table-hover-bg-factor);
+}
+
+.form-group{
+    margin-bottom: 2rem;
+}
+
+.navbar-brand{
+    margin-left: 1rem;
+}
+
+.navbar-toggler{
+    margin-right: 1rem;
+}
+
+
+#nav{
+    margin-left: 1rem;
+}
